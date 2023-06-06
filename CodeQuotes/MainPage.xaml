@@ -22,7 +22,8 @@
                 HorizontalTextAlignment="Center"
                 Text="They don't make bugs like Bunny anymore. - Olav Mjelde"
                 TextColor="White"
-                VerticalOptions='Center'/>
+                VerticalOptions='Center'
+                x:Name="quote"/>
             <Button
                 Grid.Row="1"
                 BackgroundColor="Black"

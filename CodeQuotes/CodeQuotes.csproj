@@ -49,6 +49,10 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <None Remove="resources\raw\Quotes.txt" />
+	</ItemGroup>
+
+	<ItemGroup>
 		<PackageReference Include="ColorUtility" Version="1.0.0" />
 		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="7.0.0" />
 	</ItemGroup>
