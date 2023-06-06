@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="CodeQuotes.MainPage">
 
-    <Grid BackgroundColor="Navy">
+    <Grid x:Name="background">
         <Grid.Background>
             <LinearGradientBrush EndPoint="1,1">
                 <GradientStopCollection>
@@ -28,7 +28,9 @@
                 BackgroundColor="Black"
                 TextColor="White"
                 Opacity=".4"
-                Text="Get New Quote"/>
+                Text="Get New Quote"
+                x:Name="btnGenerateQuote"
+                Clicked="btnGenerateQuote_Clicked"/>
         </Grid> 
     </Grid>
 </ContentPage>
